@@ -3,6 +3,12 @@ header, main {
             width: 800px; 
             margin-left: calc( 50% - 400px);
         }
-main {
+img {
+
+}
+nav {
+
+}
+        main {
             margin-top: 100px;
         }
