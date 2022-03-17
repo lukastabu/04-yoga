@@ -1,14 +1,82 @@
-header, main {
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body > header,
+body > main {
+            display: inline-block;
             background-color: yellow; 
             width: 800px; 
             margin-left: calc( 50% - 400px);
-        }
-img {
+}
+
+header > img {
+    float: left;
+    height: 46px;
+}
+
+header > nav {
+    float: right;
+    margin-top: 13px;
+}
+
+nav > a {
+    display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav > a:first-child {
+    border-bottom: 2px solid rgba(255, 166, 0, 0.877);
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+}
+
+body > main {
+    margin-top: 100px;
+}
+
+main > div {
+    width: 45%;
+    float: left;
+    padding-right: 5%;
+    background-color: bisque;
+}
+
+div > h1 {
+    
+}
+
+div > p {
 
 }
-nav {
 
+div > a {
+    text-decoration: none;
+    background-color: orange;
 }
-        main {
-            margin-top: 100px;
-        }
+
+main > img {
+    float: left;
+    width: 55%;
+    height: 379px;
+    object-fit: contain;
+    object-position: right;
+    background-color: lightgreen;
+}
