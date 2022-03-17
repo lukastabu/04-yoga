@@ -14,10 +14,11 @@ body {
 }
 body > header,
 body > main {
-            display: inline-block;
-            background-color: yellow; 
-            width: 800px; 
-            margin-left: calc( 50% - 400px);
+    margin-top: 50px;
+    display: inline-block;
+    background-color: yellow; 
+    width: 800px; 
+    margin-left: calc( 50% - 400px);
 }
 
 header > img {
@@ -60,16 +61,26 @@ main > div {
 }
 
 div > h1 {
-    
+    font-family: cursive;
+    margin-bottom: 15px;
 }
 
 div > p {
-
+    margin-bottom: 22px;
 }
 
 div > a {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
     text-decoration: none;
-    background-color: orange;
+    color: whitesmoke;
+    background-color: orangered;
+}
+
+h1 > span {
+    color: orangered;
 }
 
 main > img {
